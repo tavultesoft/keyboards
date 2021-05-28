@@ -2,7 +2,7 @@ c This keyboard is for the Haisla language and has been developed by FirstVoices
 store(&VERSION) '10.0'
 store(&NAME) 'Haisla'
 store(&COPYRIGHT) '© FirstVoices 2020'
-store(&KEYBOARDVERSION) '1.0'
+store(&KEYBOARDVERSION) '1.1'
 store(&TARGETS) 'any'
 store(&VISUALKEYBOARD) 'fv_haisla.kvks'
 store(&LAYOUTFILE) 'fv_haisla.keyman-touch-layout'
@@ -14,7 +14,7 @@ store(ejective) "cklmnpqtwyCKLMNPQTWY"
 store(basekeysecond) "gxGX"
 
 group(main) using keys
-";" + any(ejective) > index(ejective,2) U+0343
+";" + any(ejective) > index(ejective,2) U+0313
 ";" + any(basevowel) > index(basevowel,2) U+0301
 "=" + any(basekeysecond) > index(basekeysecond,2) U+0304
 "=" + "l" > "ɫ"
@@ -23,6 +23,7 @@ group(main) using keys
 "λ" + "-" > "ƛ"
 "ƛ" + "-" > "ƛ̓"
 "w" + "w" > "ʷ"
+"ʷ" + "w" > "www"
 + [K_QUOTE] > "’"
 
 + [T_gbar] > "ḡ"

@@ -1,9 +1,9 @@
+
 Haisla keyboard
-==============
 
 © FirstVoices 2020
 
-Version 1.0
+Version 1.1
 
 Description
 -----------
@@ -27,4 +27,3 @@ Supported Platforms
  * Mobile devices
  * Desktop devices
  * Tablet devices
-
